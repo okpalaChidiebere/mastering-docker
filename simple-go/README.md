@@ -23,4 +23,4 @@ In this app, we learned how to build a docker image from an application, run the
 
 ## Aha moment
 
-To be able to send http requests from your local machine to the container app, you will have to bind port (8080) of the container to TCP port (8080) on localhost(127.0.0.1) of the host machine like `docker run -p 8080:8080 <IMAGE_ID>`. See [doc](https://docs.docker.com/engine/reference/commandline/run/#publish-or-expose-port--p---expose)
+To be able to send http requests like [http://localhost:8080/health](http://localhost:8080/health) from your local machine to the container app, you will have to bind port (8080) of the container to TCP port (8080) on localhost(127.0.0.1) of the host machine like `docker run -p 8080:8080 <IMAGE_ID>`. See [doc](https://docs.docker.com/engine/reference/commandline/run/#publish-or-expose-port--p---expose)
