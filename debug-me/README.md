@@ -4,7 +4,7 @@ We learn how to debug containers in this project. We had a simple application th
 
 A Docker Container is an ephemeral running instance of a Docker Image. Ephemeral is a software property where an application is expected to be short-lived; therefore a running container is expected to be killed at some point.
 
-## Handy docker commands to debu g a container
+## Handy docker commands to debug a container
 
 - `docker --version` to confirm that we have docker installed in our machine
 - `docker build -t <ANY_UNIQUE_IMAGE_NAME> .` creates a docker image using the Dockerfile
